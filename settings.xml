@@ -18,7 +18,7 @@
     <repositories>
       <repository>
         <id>visualpath-maven-central-store</id>
-        <url>https://visualpath-997450571655.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
+        <url>https://visualpath-997450571655.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
       </repository>
     </repositories>
   </profile>
@@ -28,9 +28,9 @@
     </activeProfiles>
 <mirrors>
   <mirror>
-    <id>visualpath-maven-central-store</id>
+    <id>codeartifact</id>
     <name>visualpath-maven-central-store</name>
-    <url>https://visualpath-997450571655.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://visualpath-997450571655.d.codeartifact.us-east-2.amazonaws.com/maven/maven-central-store/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
